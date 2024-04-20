@@ -50,7 +50,10 @@ header {
 
     @media (max-width: 768px) {
         margin-left: 10px;
+        padding: 10px 15px;
     }
+}
+
 }
 .rec:hover {
     filter: invert(100%);
