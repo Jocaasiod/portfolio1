@@ -30,19 +30,27 @@ header {
 
 .kontejner-reci {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Center the items horizontally */
     align-items: center;
+
+    @media (max-width: 768px) {
+        justify-content: flex-start; /* Align items to the start on smaller screens */
+    }
 }
 
 .rec {
-	display: inline-block;
-    	background-color: #FFFFFF;
-    	color: #8AAAE5;
-    	padding: 15px 20px;
-    	margin-left: 20px;
-    	border-radius: 5px;
-	text-decoration: none;
-	transition: filter 0.3s ease;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #8AAAE5;
+    padding: 15px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: filter 0.3s ease;
+
+    @media (max-width: 768px) {
+        margin-left: 10px; /* Reduce margin on smaller screens */
+    }
 }
 .rec:hover {
     filter: invert(100%);
