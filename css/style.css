@@ -30,11 +30,11 @@ header {
 
 .kontejner-reci {
     display: flex;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center;
     align-items: center;
 
     @media (max-width: 768px) {
-        justify-content: flex-start; /* Align items to the start on smaller screens */
+        justify-content: flex-start;
     }
 }
 
@@ -49,7 +49,7 @@ header {
     transition: filter 0.3s ease;
 
     @media (max-width: 768px) {
-        margin-left: 10px; /* Reduce margin on smaller screens */
+        margin-left: 10px;
     }
 }
 .rec:hover {
